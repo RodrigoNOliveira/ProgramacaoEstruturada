@@ -6,7 +6,7 @@ int main()
 {
 
     srand(time(NULL));
-    int tamanho, valor = 0, i, j, k;
+    int tamanho, i, j, k;
     printf("Insira a altura do triangulo: ");
     scanf("%i", &tamanho);
 
@@ -18,8 +18,7 @@ int main()
         }
         for (j = 0; j < i; j++)
         {
-            valor++;
-            printf("%.2i ", valor);
+            printf("* ");
         }
         printf("\n");
     }
