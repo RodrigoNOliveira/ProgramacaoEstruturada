@@ -4,8 +4,8 @@
 #define PI 3.14159265358
 
 int main(){
-	int valor;
-    double area, circ;
+	int area, valor;
+    double circ;
     printf("Insira o valor do raio para se calcular a area e perimetro de um circulo: ");
 	scanf("%i", &valor);
     circ = valor*PI*2;
