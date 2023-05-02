@@ -9,8 +9,8 @@ int main(){
     srand(time(NULL));
     
     
-    for(i = 0 ; i < 3; i++){
-    	valor = 100 + rand() % 999+1;
+    for(i = 0 ; i < 20; i++){
+    	valor = 100 + rand() % 899+1;
     	if(valor%5 == 0){
     		printf("%i ", valor);
 		} else{
