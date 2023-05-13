@@ -6,12 +6,12 @@
 
 int main()
 {
-    double matriz[7][7],x, media, soma = 0;
+    double matriz[6][6],x, media, soma = 0;
     int i, j;
     srand(time(NULL));
-    for (i = 0; i < 7; i++)
+    for (i = 0; i < 6; i++)
     {
-        for (j = 0; j < 7; j++)
+        for (j = 0; j < 6; j++)
         {
             x = rand() % 100;
             matriz[i][j] = x/100;
