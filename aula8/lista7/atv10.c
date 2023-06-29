@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include <math.h>
 
 double vetor(int x, int y)
 {
-    double res;
-
-    res = sqrt((double)(pow(x, 2) + pow(y, 2),2));
+    double res, prov;
+	prov = (pow(x, 2) + pow(y, 2));
+    res = sqrt(prov);
     return res;
 }
 
@@ -22,7 +21,7 @@ int main()
     printf("\nInsira o segundo: ");
     scanf("%d", &s);
     nV = vetor(p,s);
-    printf("A norma do vetor é de: %lf", nV);
+    printf("A norma do vetor e de: %lf", nV);
 
 
     return 0;
