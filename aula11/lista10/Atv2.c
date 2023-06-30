@@ -36,7 +36,6 @@ int main(){
                     n = matriz[i][j*-1][k];
                     fprintf(destino, "%d ", n);
                 }
-//                fprintf(destino, "%d %d %d ", n, n, n);
             }
 
         }
